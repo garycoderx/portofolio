@@ -1,5 +1,6 @@
-import cashremitImg from "@/public/cashremit.png";
-import tjdistributorsImg from "@/public/tjdistributors.png";
+import immobookingImg from "@/public/immobooking.png";
+import testyImg from "@/public/testy.png";
+import printImg from "@/public/3dprint.png";
 
 import { CgWorkAlt } from "react-icons/cg";
 import { FaAws, FaReact, FaRaspberryPi } from "react-icons/fa";
@@ -25,7 +26,7 @@ import {
   TbBrandReactNative,
   TbBrandRedux,
   TbBrandSocketIo,
-  TbBrandTypescript, TbCoinBitcoin, TbFileTextAi, TbBrandTorchain, TbBrandFlutter, TbBrandGolang,
+  TbBrandTypescript, TbCoinBitcoin, TbFileTextAi, TbBrandTorchain, TbBrandFlutter, TbBrandGolang, TbBrandDrupal,
 } from "react-icons/tb";
 
 import React from "react";
@@ -73,55 +74,56 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Narola Infotech",
-    location: "Surat, IN",
+    title: "Web Developer",
+    location: "Greenleaf Solutions",
     description:
-      "I've started a journey as a full-stack JavaScript developer after completing my Master of Computer Applications.",
+      "Built Drupal 8 websites for clients in education and nonprofit sectors",
     icon: React.createElement(CgWorkAlt),
-    date: "2018 - 2020",
+    date: "2015 – 2017",
   },
   {
-    title: "Crest Infosystems",
-    location: "Surat, IN",
+    title: "Full Stack Developer",
+    location: "TG Coders",
     description:
-      "As a backend developer I've been working on various projects. Like starKid, Rightback, and many more.",
+      "Built and maintained multiple web platforms using Django and React for European clients",
     icon: React.createElement(CgWorkAlt),
-    date: "2020 - 2021",
+    date: "2017 - present",
   },
+
   {
-    title: "Opash Software",
-    location: "Surat, IN",
+    title: "Lead Drupal Developer",
+    location: "CivicTech",
     description:
-      "As a co-founder and CTO of Opash Software, I've been working on various projects and contribute to the success of the company.",
+      "Led development of Drupal 9/10 multisite platform for a state government agency, improving accessibility and reducing maintenance costs by 40%",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2024",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Worldwide",
-    description:
-      "I'm now a full-stack developer working as a freelancer. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2024 - present",
+    date: "2021 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CashRemit",
+    title: "Immobooking",
     description:
-      "A seamless money transfer platform. CashRemit allows Australian users to transfer AUD to African countries like Nigeria, Ghana, Kenya, etc",
-    tags: ["React", "NodeJS", "MongoDB", "ChakraUI", "Ant Design", "AWS"],
-    imageUrl: cashremitImg,
-    url: "http://cashremit.com.au",
+      "Real estate booking and listing app.",
+    tags: ["Django", "PostgreSQL", "Bootstrap", "Facebook API"],
+    imageUrl: immobookingImg,
+    url: "https://immobooking.pl/",
   },
   {
-    title: "TJ Distributors",
+    title: "3D Print Shelf",
     description:
-      "An inspection app, admin portal, staff will use mobile app to create inspection on site (like school, stadium etc...) and submit, admin will check, approve, proceed, generate report and certificates. ",
-    tags: ["React", "NodeJS", "MongoDB", "React Native"],
-    imageUrl: tjdistributorsImg,
-    url: "",
+      "E-commerce platform for 3D-printed products. ",
+    tags: ["Django", "PostgreSQL", "Bootstrap", "Channel"],
+    imageUrl: printImg,
+    url: "https://3dprintshelf.com/search-engine/",
+  },
+  {
+    title: "Testy Iusvitae",
+    description:
+      "Legal exam prep platform with dynamic questions. ",
+    tags: ["Laravel", "Vue", "MySQL", "SocketIO", "PWA"],
+    imageUrl: testyImg,
+    url: "https://testy.iusvitae.pl/",
   },
 ] as const;
 
@@ -143,7 +145,7 @@ export const skillsData = [
   { name: "React Native", icon: TbBrandReactNative },
   { name: "Flutter", icon: TbBrandFlutter },
   { name: "Git", icon: RiGitBranchLine },
-  { name: "MongoDB", icon: TbBrandMongodb },
+  { name: "Drupal", icon: TbBrandDrupal },
   { name: "Redux", icon: TbBrandRedux },
   { name: "Gatsby", icon: RiGatsbyLine },
   { name: "GraphQL", icon: TbBrandGraphql },
