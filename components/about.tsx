@@ -18,32 +18,32 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a postgraduate degree in{" "}
-        <span className="font-medium">Computer Science</span>, Upon graduation,
-        I embarked on a journey to become a{" "}
-        <span className="font-medium">full-stack web developer</span>. What
-        drives me most is the thrill of untangling a complex problem and
-        crafting an effective solution. My core stack is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, MongoDB, and React Native
-        </span>{" "}
-        allowing me to build dynamic and engaging applications across the{" "}
-        <span className="italic">web and mobile platforms</span>. I am also
-        familiar with{" "}
-        <span className="font-medium">
-          TypeScript, electronJS, Python, Flask and fastapi
-        </span>
-        . I am always looking to learn new technologies. I am currently looking
-        for a <span className="font-medium">full-time position</span> as a
-        software developer.
+      <p className="text-lg leading-relaxed">
+        Hi, I’m <strong>Gary Williams</strong> — a Full-Stack Developer based in Los Angeles with 8+ years of experience building modern, scalable web applications.
+        I specialize in backend development using <strong>Python (Django)</strong> and <strong>PHP (Laravel)</strong>, and I’m also proficient with <strong>React</strong>, <strong>Vue</strong>,
+        and mobile frameworks like <strong>React Native</strong> and <strong>Flutter</strong>.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies and anime series, or taking walks for a
-        breath of fresh air.
+      <p className="text-lg leading-relaxed mt-4">
+        I’m passionate about solving real-world problems through code, especially in emerging fields like <strong>AI</strong> and <strong>blockchain</strong>.
+        I've collaborated with international teams such as <strong>TG Coders (Poland)</strong>, contributing to platforms like
+        <a href="https://3dprintshelf.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline ml-1">
+          3dprintshelf
+        </a>
+         &nbsp;and
+        <a href="https://immobooking.pl/noclegi/strona-glowna/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline ml-1">
+          Immo booking
+        </a>.
       </p>
+
+      <p className="text-lg leading-relaxed mt-4">
+        Whether it's building robust APIs, integrating AI features, or deploying full-stack apps, I combine technical skill with business insight to deliver results.
+      </p>
+
+      <p className="text-lg italic mt-6">
+        Let’s build something meaningful together.
+      </p>
+
     </motion.section>
   );
 }
