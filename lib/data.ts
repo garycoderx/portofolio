@@ -40,7 +40,7 @@ export const profile = {
   title: "Full Stack Developer",
   experience: `${experienceInYears} years`,
   likes: "building web and mobile apps",
-  resumeLink: `https://docs.google.com/document/d/1B3-DfPLBfqk0SIQ-sQpgLvrikkA1gLs7/edit?usp=sharing&ouid=117931988784277709069&rtpof=true&sd=true`,
+  resumeLink: `https://docs.google.com/document/d/1nqlHQKdMtNe4wMMgdtCLU01FNXZ083A5/edit?usp=sharing&ouid=117931988784277709069&rtpof=true&sd=true`,
   linkedInLink: "https://www.linkedin.com/in/garycoderx",
   githubLink: "https://github.com/garycoderx",
 } as const;
