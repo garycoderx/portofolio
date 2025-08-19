@@ -6,10 +6,6 @@ module.exports = {
       name: 'GitHub',
       url: 'https://github.com/garycoderx',
     },
-    {
-      name: 'Xing',
-      url: 'https://www.xing.com/profile/Changsheng_Wang',
-    },
   ],
 
   navLinks: [
