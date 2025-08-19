@@ -5,7 +5,7 @@ module.exports = {
     title: 'Gary Williams',
     description:
       'Gary is a software engineer who specializes in building scalable and extensive websites.',
-    siteUrl: 'https://wang-file.vercel.app', // No trailing slash allowed!
+    siteUrl: 'https://gary-coderx.vercel.app/', // No trailing slash allowed!
     image: '/og.jpg', // Path to your image you placed in the 'static' folder
   },
   plugins: [
