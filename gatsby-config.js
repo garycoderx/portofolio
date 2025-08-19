@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Gary is a software engineer who specializes in building scalable and extensive websites.',
     siteUrl: 'https://wang-file.vercel.app', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: '/og.jpg', // Path to your image you placed in the 'static' folder
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
